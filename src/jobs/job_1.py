@@ -34,3 +34,4 @@ def main():
     output_df.write.mode("overwrite").insertInto(output_table_name)
 if __name__ == '__main__':
     main()
+    
